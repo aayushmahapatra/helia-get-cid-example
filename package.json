@@ -1,0 +1,34 @@
+{
+  "name": "helia-get-cid-example",
+  "version": "1.0.0",
+  "description": "Example: Get cid before upload using Helia.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@helia/unixfs": "^3.0.2",
+    "@spheron/storage": "^2.0.4",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.18",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "helia": "^4.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.3",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^20.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
